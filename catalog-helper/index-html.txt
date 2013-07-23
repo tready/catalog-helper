@@ -1,0 +1,16 @@
+
+<div class="component-wrapper styleguide-container-wrapper">
+
+    <div class="styleguide-container-header">
+        <div class="heading-m"><h2 id="component-mediagallery-app">HCNewModulePlaceholder</h2></div>
+    </div>
+
+    <div class="styleguide-container-body">
+        <div class="styleguide-container-content component-source content-box">
+            <!-- Template -->
+
+          <!-- /Template -->
+        </div>
+    </div>
+
+</div>

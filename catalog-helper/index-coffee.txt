@@ -1,0 +1,14 @@
+module.exports = ( sandbox ) ->
+
+    class HCNewModulePlaceholder extends sandbox.mvc.App
+
+        run: () ->
+            try
+                sandbox.context.element.html(
+                    sandbox.templates.render( "index" )
+                )
+                @trigger( "ready" )
+            catch e
+                _e = new Error( "HCNewModulePlaceholder#run(): Failed to render." )
+                if e.message? then _e.message += e.message
+                @trigger( "error", _e.stack )
